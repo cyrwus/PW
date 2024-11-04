@@ -703,7 +703,7 @@ BEGIN
         (  5, '2022.11.11 17:22'),
         (  8, '2022.11.18 21:24'),
         (  9, '2022.12.05 16:15'),  -- ^^ pierwszych 9 klientów nie odwiedza restauracji od ponad roku
-        ( 10, '2022.12.27 16:10'),  -- klient 10. również zawitał przeszło rok temu po raz pierwszy, ale nie dawno zjawił się raz jeszcze
+        ( 10, '2022.12.27 16:10'),  -- klient 10. również zawitał przeszło rok temu po raz pierwszy, ale niedawno zjawił się raz jeszcze
         (  4, '2023.01.29 19:07'),  -- klient  4. długo nie ponawia wizyty, ale trzymamy jego historię, gdyż nie minął jeszcze rok
         ( 11, '2023.02.04 18:56'),
         ( 12, '2023.02.04 21:47'),
@@ -1501,7 +1501,7 @@ END;
 
 
 
---- #### -- -- #### -- -- #### -- SPRAWDZONKO -- #### -- -- #### -- -- #### ---
+--- #### -- -- #### -- -- #### -- SPRAWDZENIE -- #### -- -- #### -- -- #### ---
 
 
 CREATE PROCEDURE ng._Epizod1 AS
