@@ -1,0 +1,9 @@
+pieciokat  5  5.0
+trojkat  3  7.5
+kwadrat  4  4.0
+romb  4  4.0
+prostokat  4  6.0
+rownoleglobok  4  8.0
+trapez  4  7.0
+szesciokat  6  12.0
+kolo  0  3.14159265359

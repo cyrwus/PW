@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="P3" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bin/Debug" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../bin/Release" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="cyrwus_artur_p3.cpp" />
+		<Unit filename="app.cpp" />
+		<Unit filename="app.h" />
+		<Unit filename="project.cpp" />
+		<Unit filename="project.h" />
+		<Unit filename="book.cpp" />
+		<Unit filename="book.h" />
+		<Unit filename="engine/dsp.cpp" />
+		<Unit filename="engine/dsp.h" />
+		<Unit filename="engine/graph.cpp" />
+		<Unit filename="engine/graph.h" />
+		<Unit filename="engine/heap.cpp" />
+		<Unit filename="engine/heap.h" />
+		<Unit filename="engine/array.cpp" />
+		<Unit filename="engine/array.h" />
+		<Unit filename="engine/common.h" />
+		<Unit filename="shell/dlgs.cpp" />
+		<Unit filename="shell/dlgs.h" />
+		<Unit filename="shell/grid.cpp" />
+		<Unit filename="shell/grid.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
